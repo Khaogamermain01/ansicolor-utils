@@ -1,0 +1,46 @@
+{
+  "name": "ansicolor-utils",
+  "version": "0.0.1",
+  "description": "A util for ANSI colors. Encoding and Decoding ANSI colors & more!",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build && require-self",
+    "lint": "ts-standard",
+    "fix": "ts-standard --fix"
+  },
+  "keywords": [
+    "ansicolors",
+    "chalk",
+    "ansi",
+    "colors",
+    "colorutils",
+    "color-utils",
+    "color",
+    "color-util",
+    "colorutil"
+  ],
+  "author": "Khaogamermain01",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Khaogamermain01/ansicolor-utils.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Khaogamermain01/ansicolor-utils/issues"
+  },
+  "homepage": "https://github.com/Khaogamermain01/ansicolor-utils#readme",
+  "devDependencies": {
+    "require-self": "^0.2.3",
+    "ts-standard": "^12.0.2",
+    "typescript": "^5.2.2"
+  },
+  "files": [
+    "dist"
+  ],
+  "dependencies": {
+    "anser": "^2.1.1",
+    "escape-carriage": "^1.3.1",
+    "react": "^18.2.0"
+  }
+}

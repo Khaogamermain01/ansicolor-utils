@@ -1,6 +1,6 @@
 {
   "name": "ansicolor-utils",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A util for ANSI colors. Encoding and Decoding ANSI colors & more!",
   "main": "dist/index.js",
   "scripts": {
